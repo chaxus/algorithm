@@ -1,0 +1,14 @@
+{
+  "name": "arithmetic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@rl:culaccino/note.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "sh ./bin/start.sh",
+    "clean": "sh ./bin/clean.sh"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
