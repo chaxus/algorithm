@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-rm -f ./sortAlgorithm/*.js
+rm -f ./algorithm/*.js

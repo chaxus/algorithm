@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-./node_modules/.bin/tsc ./sortAlgorithm/$1
+./node_modules/.bin/tsc ./algorithm/$1
 name=$1
-path=./sortAlgorithm/${name%.*}".js"
+path=./algorithm/${name%.*}".js"
 node $path
 rm -f $path
