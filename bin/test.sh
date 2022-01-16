@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-name=$1
-path=${name%.*}".spec.js"
-./node_modules/.bin/jest $path
+
+./node_modules/.bin/jest ${1%.*}".spec.js"
