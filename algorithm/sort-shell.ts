@@ -1,8 +1,8 @@
 /*
  * @Author: ran
  * @Date: 2022-01-16 14:43:53
- * @LastEditors: ran
- * @LastEditTime: 2022-01-17 22:49:26
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-01-18 00:11:49
  */
 // 希尔排序
 // 插入排序的改进版，也称为缩小增量排序
@@ -23,6 +23,7 @@ const shellSort = (arr:Array<number>) => {
     }
     return arr;
 }
+shellSort(arr)
 export default shellSort
 
 
