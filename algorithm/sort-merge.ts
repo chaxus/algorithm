@@ -38,5 +38,5 @@ const mergeSort = (arr:Array<number>):Array<number> => {
     return merge(mergeSort(leftArr),mergeSort(rightArr))
 }
 
-console.log(mergeSort(arr))
+// console.log(mergeSort(arr))
 export default mergeSort

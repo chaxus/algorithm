@@ -4,10 +4,13 @@
   "main": "index.js",
   "repository": "git@rl:culaccino/note.git",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "sh ./bin/start.sh",
     "clean": "sh ./bin/clean.sh",
-    "test": "sh ./bin/test.sh"
+    "test": "sh ./bin/test.sh",
+    "tsc": "tsc -p tsconfig.json",
+    "debug": "sh ./bin/debug.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
@@ -19,6 +22,8 @@
     "husky": "^7.0.4",
     "jest": "^27.4.7",
     "ts-jest": "^27.1.3",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.4"
   }
 }
