@@ -1,2 +1,4 @@
 node_modules
-sortAlgorithm/*.js
+algorithm/*.js
+algorithm/*.js.map
+yarn.lock

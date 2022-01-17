@@ -4,13 +4,13 @@
   "main": "index.js",
   "repository": "git@rl:culaccino/note.git",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "start": "sh ./bin/start.sh",
     "clean": "sh ./bin/clean.sh",
     "test": "sh ./bin/test.sh",
     "tsc": "tsc -p tsconfig.json",
-    "debug": "sh ./bin/debug.sh"
+    "debug": "sh ./bin/debug.sh",
+    "build": "sh ./bin/build.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
