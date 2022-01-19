@@ -2,9 +2,9 @@
  * @Author: ran
  * @Date: 2022-01-16 22:58:24
  * @LastEditors: ran
- * @LastEditTime: 2022-01-16 23:42:31
+ * @LastEditTime: 2022-01-19 22:18:27
  */
-import search from '../algorithm/search-binary.ts'
+import search from '../algorithm/search-binary'
 
 describe("Binary search", () => {
   it("Finds the target in the array, returning the index if the target value exists, or -1 otherwise", () => {
